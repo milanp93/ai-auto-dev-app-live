@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; }
+    header { text-align: center; padding: 80px 20px 60px; background: linear-gradient(135deg, #161b22, #1f2937); }
+    header h1 { font-size: 3rem; font-weight: 700; color: #58a6ff; margin-bottom: 16px; }
+    header p { font-size: 1.2rem; color: #8b949e; max-width: 540px; margin: 0 auto 32px; }
+    .cta { background: #238636; color: #fff; border: none; padding: 14px 32px; font-size: 1rem; border-radius: 8px; cursor: pointer; text-decoration: none; display: inline-block; transition: background 0.2s; }
+    .cta:hover { background: #2ea043; }
+    section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+    h2 { font-size: 1.6rem; color: #58a6ff; margin-bottom: 32px; text-align: center; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px; }
+    .step { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 14px; text-align: center; }
+    .step .num { font-size: 1.4rem; color: #58a6ff; font-weight: 700; margin-bottom: 8px; }
+    .step .label { font-size: 0.95rem; color: #c9d1d9; font-weight: 600; }
+    .step .desc { font-size: 0.8rem; color: #8b949e; margin-top: 6px; }
+    .stack { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .tech { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 28px; text-align: center; min-width: 150px; }
+    .tech .name { font-size: 1.1rem; font-weight: 700; color: #e6edf3; }
+    .tech .role { font-size: 0.8rem; color: #8b949e; margin-top: 4px; }
+    footer { text-align: center; padding: 30px; color: #484f58; font-size: 0.85rem; border-top: 1px solid #21262d; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Delivery Orchestrator</h1>
+    <p>Automate your entire software delivery pipeline — from intake to deployment — powered by AI.</p>
+    <a href="#workflow" class="cta">See How It Works</a>
+  </header>
+
+  <section id="workflow">
+    <h2>Delivery Workflow</h2>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div class="label">Intake</div><div class="desc">Capture requirements via Jira tickets</div></div>
+      <div class="step"><div class="num">2</div><div class="label">Build</div><div class="desc">Claude AI generates code automatically</div></div>
+      <div class="step"><div class="num">3</div><div class="label">Review</div><div class="desc">Automated PR created on GitHub</div></div>
+      <div class="step"><div class="num">4</div><div class="label">Deploy</div><div class="desc">SuperPlane orchestrates deployment</div></div>
+      <div class="step"><div class="num">5</div><div class="label">QA</div><div class="desc">Automated tests validate the release</div></div>
+      <div class="step"><div class="num">6</div><div class="label">Approval</div><div class="desc">Human sign-off before go-live</div></div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <h2>Tech Stack</h2>
+    <div class="stack">
+      <div class="tech"><div class="name">SuperPlane</div><div class="role">Orchestration Engine</div></div>
+      <div class="tech"><div class="name">Claude AI</div><div class="role">Code Generation</div></div>
+      <div class="tech"><div class="name">Jira</div><div class="role">Issue Tracking</div></div>
+      <div class="tech"><div class="name">GitHub</div><div class="role">Version Control & CI</div></div>
+    </div>
+  </section>
+
+  <footer>AI Delivery Orchestrator &mdash; KAN-1 &mdash; milanp93/ai-auto-dev-app-live</footer>
+</body>
+</html>
