@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0a0f; color: #e0e0e0; }
+    .hero { text-align: center; padding: 80px 20px 60px; background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%); }
+    .hero h1 { font-size: 3rem; font-weight: 700; color: #fff; margin-bottom: 16px; }
+    .hero h1 span { color: #7c3aed; }
+    .hero p { font-size: 1.2rem; color: #a0a0b0; max-width: 540px; margin: 0 auto 32px; }
+    .badge { display: inline-block; background: #7c3aed22; border: 1px solid #7c3aed55; color: #a78bfa; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 20px; }
+    section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+    h2 { font-size: 1.6rem; color: #fff; margin-bottom: 32px; text-align: center; }
+    .steps { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+    .step { background: #13131f; border: 1px solid #2a2a3e; border-radius: 12px; padding: 20px 24px; width: 130px; text-align: center; }
+    .step .num { font-size: 1.4rem; color: #7c3aed; font-weight: 700; margin-bottom: 8px; }
+    .step .label { font-size: 0.9rem; color: #c0c0d0; font-weight: 500; }
+    .tech { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .tech-card { background: #13131f; border: 1px solid #2a2a3e; border-radius: 12px; padding: 20px 32px; text-align: center; min-width: 140px; }
+    .tech-card .name { font-size: 1rem; font-weight: 600; color: #e0e0e0; margin-top: 8px; }
+    .tech-card .icon { font-size: 2rem; }
+    .cta { text-align: center; padding: 60px 20px; }
+    .cta-btn { background: #7c3aed; color: #fff; border: none; padding: 16px 40px; font-size: 1.1rem; border-radius: 8px; cursor: pointer; font-weight: 600; transition: background 0.2s; text-decoration: none; display: inline-block; }
+    .cta-btn:hover { background: #6d28d9; }
+    .divider { border: none; border-top: 1px solid #1e1e2e; margin: 0; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="badge">KAN-1 · Live</div>
+    <h1>AI <span>Delivery</span> Orchestrator</h1>
+    <p>Automate your entire software delivery pipeline — from intake to deployment — powered by Claude AI.</p>
+  </div>
+  <hr class="divider">
+  <section>
+    <h2>Delivery Workflow</h2>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><div class="label">Intake</div></div>
+      <div class="step"><div class="num">02</div><div class="label">Build</div></div>
+      <div class="step"><div class="num">03</div><div class="label">Review</div></div>
+      <div class="step"><div class="num">04</div><div class="label">Deploy</div></div>
+      <div class="step"><div class="num">05</div><div class="label">QA</div></div>
+      <div class="step"><div class="num">06</div><div class="label">Approval</div></div>
+    </div>
+  </section>
+  <hr class="divider">
+  <section>
+    <h2>Tech Stack</h2>
+    <div class="tech">
+      <div class="tech-card"><div class="icon">✈️</div><div class="name">SuperPlane</div></div>
+      <div class="tech-card"><div class="icon">🤖</div><div class="name">Claude AI</div></div>
+      <div class="tech-card"><div class="icon">📋</div><div class="name">Jira</div></div>
+      <div class="tech-card"><div class="icon">🐙</div><div class="name">GitHub</div></div>
+    </div>
+  </section>
+  <div class="cta">
+    <a href="https://github.com/milanp93/ai-auto-dev-app-live" class="cta-btn">View on GitHub →</a>
+  </div>
+</body>
+</html>
