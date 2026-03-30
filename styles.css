@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; color: #1a1a2e; background: #f9fafb; }
+.container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+.hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%); color: #fff; padding: 90px 0 70px; text-align: center; }
+.hero h1 { font-size: 2.8rem; font-weight: 700; margin-bottom: 16px; letter-spacing: -0.5px; }
+.tagline { font-size: 1.15rem; color: #a0b4cc; margin-bottom: 36px; max-width: 540px; margin-left: auto; margin-right: auto; }
+.cta-btn { display: inline-block; background: #e94560; color: #fff; padding: 14px 32px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: background 0.2s; }
+.cta-btn:hover { background: #c73652; }
+
+.workflow { padding: 70px 0; background: #fff; }
+.workflow h2, .tech-stack h2, .cta-section h2 { text-align: center; font-size: 1.8rem; margin-bottom: 40px; color: #1a1a2e; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; }
+.step { background: #f0f4ff; border-radius: 10px; padding: 24px 16px; text-align: center; }
+.num { display: inline-block; background: #0f3460; color: #fff; width: 32px; height: 32px; border-radius: 50%; line-height: 32px; font-weight: 700; margin-bottom: 10px; }
+.step h3 { font-size: 1rem; margin-bottom: 6px; color: #0f3460; }
+.step p { font-size: 0.82rem; color: #555; }
+
+.tech-stack { padding: 70px 0; background: #f9fafb; }
+.tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+.tech-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 28px 20px; text-align: center; }
+.tech-card strong { font-size: 1.1rem; color: #0f3460; display: block; margin-bottom: 6px; }
+.tech-card p { font-size: 0.85rem; color: #666; }
+
+.cta-section { padding: 70px 0; background: #1a1a2e; text-align: center; }
+.cta-section h2 { color: #fff; margin-bottom: 28px; }
