@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Delivery Orchestrator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f13; color: #e8e8f0; }
+    .hero { text-align: center; padding: 80px 20px 60px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+    .hero h1 { font-size: 3rem; font-weight: 700; background: linear-gradient(90deg, #7c3aed, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }
+    .hero p { font-size: 1.2rem; color: #94a3b8; max-width: 560px; margin: 0 auto 32px; }
+    .badge { display: inline-block; background: rgba(124,58,237,0.2); border: 1px solid rgba(124,58,237,0.4); color: #a78bfa; padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 24px; }
+    section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+    h2 { font-size: 1.6rem; font-weight: 600; margin-bottom: 32px; text-align: center; color: #c4b5fd; }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px; }
+    .step { background: #1e1e2e; border: 1px solid #2d2d44; border-radius: 12px; padding: 20px 12px; text-align: center; }
+    .step .num { font-size: 1.4rem; font-weight: 700; color: #7c3aed; margin-bottom: 8px; }
+    .step .label { font-size: 0.9rem; color: #94a3b8; font-weight: 500; }
+    .stack { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .chip { background: #1e1e2e; border: 1px solid #2d2d44; border-radius: 10px; padding: 14px 24px; font-size: 1rem; font-weight: 600; color: #e2e8f0; display: flex; align-items: center; gap: 10px; }
+    .chip span { font-size: 1.4rem; }
+    .cta { text-align: center; padding: 60px 20px; }
+    .cta-btn { background: linear-gradient(135deg, #7c3aed, #3b82f6); color: #fff; border: none; padding: 16px 40px; border-radius: 10px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; transition: opacity .2s; }
+    .cta-btn:hover { opacity: 0.85; }
+    .divider { border: none; border-top: 1px solid #2d2d44; margin: 0 20px; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="badge">KAN-1 · AI-Powered</div>
+    <h1>AI Delivery Orchestrator</h1>
+    <p>Automate your entire software delivery pipeline — from intake to deployment — powered by Claude AI.</p>
+  </div>
+
+  <section>
+    <h2>Delivery Workflow</h2>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><div class="label">Intake</div></div>
+      <div class="step"><div class="num">02</div><div class="label">Build</div></div>
+      <div class="step"><div class="num">03</div><div class="label">Review</div></div>
+      <div class="step"><div class="num">04</div><div class="label">Deploy</div></div>
+      <div class="step"><div class="num">05</div><div class="label">QA</div></div>
+      <div class="step"><div class="num">06</div><div class="label">Approval</div></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section>
+    <h2>Tech Stack</h2>
+    <div class="stack">
+      <div class="chip"><span>✈️</span> SuperPlane</div>
+      <div class="chip"><span>🤖</span> Claude AI</div>
+      <div class="chip"><span>📋</span> Jira</div>
+      <div class="chip"><span>🐙</span> GitHub</div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="https://github.com/milanp93/ai-auto-dev-app-live" class="cta-btn">View on GitHub →</a>
+  </div>
+</body>
+</html>
